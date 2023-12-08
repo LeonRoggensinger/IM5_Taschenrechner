@@ -2,11 +2,15 @@
 
 ## Beschreibung
 
-Das Projekt befasst sich mit Gamification Ansätzen für Primarschüler der 1. bis zur 6. Klasse. 
+Mein Projekt hat nicht viel mit meiner Bachelorareit zu tun, zumal ich zu dieser Zeit noch keine Idee bezüglich meines Bachelorthemas hatte. Trotzdem wollte ich etwas basteln, das Spass macht!
 
-Das Spiel ermöglicht einen spielerischen Zugang zu einfachen mathematischen Grundkenntnissen.
+Mein Projekt befasst sich mit Gamification Ansätzen für Primarschüler der 1. bis zur 6. Klasse, ist aber ebenso eine gute Rechenübung für ältere Semester. 
+
+Es ist ein Spiel, welches einen kreativen Zugang zu einfachen mathematischen Grundkenntnissen ermöglicht.
 
 Die Idee ist es, den User*innen die Funktionalitäten eines Taschenrechners aufzuzeigen, ohne sie alles mit dem Taschenrechner rechnen zu lassen. So verstehen sie besser, wie hilfreich ein Taschenrechner sein kann und gleichzeitig erlernen sie das Kopfrechnen
+
+Der Fokus des Projekts lag auf der Javascript-Funktionalität des Taschenrechners. Ich wollte spezifisch eine simple Logikanwendung kreieren und habe mich bewusst gegen eine konventionelle Webseite entschieden. Von denen gibts schon genug.
 
 ## Wie funktionierts?
 
