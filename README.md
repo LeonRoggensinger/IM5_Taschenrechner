@@ -25,7 +25,7 @@ Mit BACKSPACE wird das Eingabefeld zurückgesetzt.
 
 ## Entstehungsprozess
 
-Der Entstehungsprozess war sehr lehrreich. Ich programmierte grösstenteils mit Chat GPT 4. Angefangen beim HTML Code, dann sehr schnell Javascript. Das Styling mit CSS machte ich erst ganz am Schluss. Die konkrete Gamificationidee kam erst nach dem ersten Progammieren des Taschenrechners zustande. Diese baute ich dann nach einigen Versuchen aus, da ich gemerkt habe, dass das System ziemlich schnell auszutricksen ist. Erst, wenn eine Schlüsselzahl sowie ein Operator im Spiel zu berücksichtigen sind, wird die Sache knifflig. 
+Der Entstehungsprozess war sehr lehrreich. Erstmals machte ich Erfahrungen mit dem PlugIn LiveServer. Für mich war das ein optimaler Workflow, da ich nicht auf Datenbanken etc. angewiesen war. Darum musste ich auch nichts auf GitHub pushen. Ich hielt alles Lokal auf meinem Rechner. Weiter programmierte ich grösstenteils mit Chat GPT 4. Angefangen beim HTML Code, dann sehr schnell weiter zu Javascript. Das Styling mit CSS machte ich erst ganz am Schluss. Die konkrete Gamificationidee kam erst nach dem ersten Progammieren des Taschenrechners zustande. Diese baute ich dann nach einigen Versuchen aus, da ich gemerkt habe, dass das System ziemlich schnell auszutricksen ist. Erst, wenn eine Schlüsselzahl sowie ein Operator im Spiel zu berücksichtigen sind, wird die Sache knifflig. 
 
 ## Herausforderungen
 
