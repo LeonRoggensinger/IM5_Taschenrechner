@@ -29,8 +29,12 @@ Der Entstehungsprozess war sehr lehrreich. Ich programmierte grösstenteils mit 
 
 ## Herausforderungen
 
-Eine Herausforderung war bestimmt die Logik. Dabei haben mir aber Skizzen geholfen, in denen ich verschiedene Möglichkeiten ausformulierte, wie die Rechnungen entstehen können. Durch die Logik musste ich mich intensiv mit Javascript auseinandersetzen. Das war auch nicht immer leicht, da die Funktionen nicht immer ganz einfach zu verstehen und nachzubauen sind. Speziell mit Variabeln, welche als Parameter in einer Funktion mitgegeben werden, hatte ich lange Mühe. Das Prinzip habe ich jetzt aber verstanden.
-Nebst dem war die Überprüfung der Rechnung eine Schwierigkeit, da sie relativ viele Bedingungen erfüllen musste. Die Speicherung der Fehlversuche in eine Liste war auch nicht ganz leicht, konnte aber mit einem Leeren Array, welches mit einem forEach-Loop befüllt wird, gelöst werden. Die Funktionalität, dass die Zahlen und Operatoren etc. mit der Tastatur bedient werden können, verkomplizierte den Javascript-Code noch weiter. Zum Schluss sollten die Tasten mithilfe von Javascript auch noch ihre CSS Attribute verändern. So nahm die ganze Sache zum Schluss auch noch eine userfreundlichere und visuell ansprechendere Form an.
+Eine Herausforderung war bestimmt die Logik. Dabei haben mir aber Skizzen geholfen, in denen ich verschiedene Möglichkeiten ausformulierte, wie die Rechnungen entstehen können. Durch die Logik musste ich mich intensiv mit Javascript auseinandersetzen. Das war auch nicht immer leicht, da die Funktionen nicht immer einfach zu verstehen und nachzubauen sind. Speziell mit Variabeln, welche als Parameter in einer Funktion mitgegeben werden, hatte ich lange Mühe. Das Prinzip habe ich jetzt aber verstanden.
+Nebst dem war die Überprüfung der Rechnung eine Schwierigkeit, da sie relativ viele Bedingungen erfüllen musste. Die Speicherung der Fehlversuche in eine Liste konnte mit einem leeren Array, welches mit einem forEach-Loop befüllt wird, gelöst werden. Die Funktionalität, dass die Zahlen und Operatoren etc. mit der Tastatur bedient werden können, verkomplizierte den Javascript-Code noch weiter. Zum Schluss sollten die Tasten mithilfe von Javascript auch noch ihre CSS Attribute verändern. So nahm die ganze Sache zum Schluss eine userfreundlichere und visuell ansprechendere Form an und gab dem benutzer ein visuelles Feedback.
+
+## Weitere Schritte
+Als Ausbaumöglichkeit sehe ich klar ein Scoreboard mit einer Datenbank zum Beispiel oder einen Counter für die erfolgreichen Versuche mithilfe des Localstorage. Für das hat die Zeit leider nicht mehr gereicht.
+
 ## Quellen
 
 - Chat-GPT 4
