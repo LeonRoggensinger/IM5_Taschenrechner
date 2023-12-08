@@ -33,7 +33,7 @@ Eine Herausforderung war bestimmt die Logik. Dabei haben mir aber Skizzen geholf
 Nebst dem war die Überprüfung der Rechnung eine Schwierigkeit, da sie relativ viele Bedingungen erfüllen musste. Die Speicherung der Fehlversuche in eine Liste konnte mit einem leeren Array, welches mit einem forEach-Loop befüllt wird, gelöst werden. Die Funktionalität, dass die Zahlen und Operatoren etc. mit der Tastatur bedient werden können, verkomplizierte den Javascript-Code noch weiter. Zum Schluss sollten die Tasten mithilfe von Javascript auch noch ihre CSS Attribute verändern. So nahm die ganze Sache zum Schluss eine userfreundlichere und visuell ansprechendere Form an und gab dem benutzer ein visuelles Feedback.
 
 ## Weitere Schritte
-Als Ausbaumöglichkeit sehe ich klar ein Scoreboard mit einer Datenbank zum Beispiel oder einen Counter für die erfolgreichen Versuche mithilfe des Localstorage. Für das hat die Zeit leider nicht mehr gereicht.
+Als Ausbaumöglichkeit sehe ich klar ein Scoreboard mit einer Datenbank zum Beispiel oder einen Counter für die erfolgreichen Versuche mithilfe des Localstorage. Auch ein Countdown für den extra Nervenkitzel wäre schön gewesen. Für das hat die Zeit aber leider nicht mehr gereicht.
 
 ## Quellen
 
