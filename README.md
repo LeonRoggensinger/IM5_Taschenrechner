@@ -1,6 +1,6 @@
 # Der Kopfrechner
 
-## Beschreibung
+## Über das Projekt
 
 Mein Projekt hat nicht viel mit meiner Bachelorareit zu tun, zumal ich zu dieser Zeit noch keine Idee bezüglich meines Bachelorthemas hatte. Trotzdem wollte ich etwas basteln, das Spass macht!
 
@@ -22,6 +22,23 @@ Die Eingabe erfolgt mittels Drücken der VIRTUELLEN TASTEN oder des NUMPAD auf d
 Mit den Tasten +, -, * und / werden die Operatoren eingeloggt. 
 Mit ENTER wird das Resultat eingeloggt.
 Mit BACKSPACE wird das Eingabefeld zurückgesetzt. 
+
+## Entstehungsprozess
+
+Der Entstehungsprozess war sehr lehrreich. Ich programmierte grösstenteils mit Chat GPT 4. Angefangen beim HTML Code, dann sehr schnell Javascript. Das Styling mit CSS machte ich erst ganz am Schluss. Die konkrete Gamificationidee kam erst nach dem ersten Progammieren des Taschenrechners zustande. Diese baute ich dann nach einigen Versuchen aus, da ich gemerkt habe, dass das System ziemlich schnell auszutricksen ist. Erst, wenn eine Schlüsselzahl sowie ein Operator im Spiel zu berücksichtigen sind, wird die Sache knifflig. 
+
+## Herausforderungen
+
+Eine Herausforderung war bestimmt die Logik. Dabei haben mir aber Skizzen geholfen, in denen ich verschiedene Möglichkeiten ausformulierte, wie die Rechnungen entstehen können. Durch die Logik musste ich mich intensiv mit Javascript auseinandersetzen. Das war auch nicht immer leicht, da die Funktionen nicht immer ganz einfach zu verstehen und nachzubauen sind. Speziell mit Variabeln, welche als Parameter in einer Funktion mitgegeben werden, hatte ich lange Mühe. Das Prinzip habe ich jetzt aber verstanden.
+Nebst dem war die Überprüfung der Rechnung eine Schwierigkeit, da sie relativ viele Bedingungen erfüllen musste. Die Speicherung der Fehlversuche in eine Liste war auch nicht ganz leicht, konnte aber mit einem Leeren Array, welches mit einem forEach-Loop befüllt wird, gelöst werden. Die Funktionalität, dass die Zahlen und Operatoren etc. mit der Tastatur bedient werden können, verkomplizierte den Javascript-Code noch weiter. Zum Schluss sollten die Tasten mithilfe von Javascript auch noch ihre CSS Attribute verändern. So nahm die ganze Sache zum Schluss auch noch eine userfreundlichere und visuell ansprechendere Form an.
+## Quellen
+
+- Chat-GPT 4
+- W3 Schools
+- GitHub CoPilot
+- jsfiddle.net
+
+
 
 
 
