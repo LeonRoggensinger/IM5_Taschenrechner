@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+
+    <h1>Der Kopfrechner</h1>
+
+    
+    <article>
+
+        <h2>How to Play</h2>
+
+        <p id="anleitung">
+
+            Finde eine Rechnung, die dich zur generierten <b>Zielzahl</b> führt. Dabei musst du in der Rechnung mindestens einmal die <b>Schlüsselzahl</b> und den angegebenen <b>Operator</b> verwenden.
+            <br>
+            <br>
+            Hast du eine Rechnung gefunden, so tippe sie in den Taschenrechner ein und überprüfe mit der Eingabetaste, ob du wirklich richtig gerechnet hast.
+            <br>
+            <br>
+            Sollte die Rechnung nicht stimmen, wird sie auf rechten Seite in der Liste gespeichert, bis du eine richtige Rechnung findest.
+            <br>
+            <br>
+            Die <b>Eingabe</b> auf dem Rechner erfolgt entweder mit <b>Klicken</b> auf die Tasten oder mithilfe deiner <b>Tastatur</b>.
+            <br>
+            <br>
+            <br>
+            <b>1-9 = Eingabe der Zahlen</b>
+            <br>
+            <b>+, -, *, / = Eingabe der Operatoren</b>
+            <br>
+            <b>ENTER = Resultat berechnen</b>
+            <br>
+            <b>BACKSPACE = clear</b>
+            <br>
+            <br>
+
+        </p>
+    </article>
+<div id="content">
+
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+        <!-- ... Vorheriger Code ... -->
+
+        <div id="buttons">
+            <!-- Ziffern 0-9 -->
+            <div id="numbers" class="calculatorelements">
+                <button data-value="1">1</button>
+                <button data-value="2">2</button>
+                <button data-value="3">3</button>
+                <button data-value="4">4</button>
+                <button data-value="5">5</button>
+                <button data-value="6">6</button>
+                <button data-value="7">7</button>
+                <button data-value="8">8</button>
+                <button data-value="9">9</button>
+                <button data-value="0">0</button>
+            </div>
+            <!-- Operatoren -->
+            <div id="operators" class="calculatorelements">
+                <button data-value="+">+</button>
+                <button data-value="-">-</button>
+                <button data-value="*">×</button>
+                <button data-value="/">÷</button>
+            </div>
+            <!-- Andere Funktionen -->
+            <div id="functions" class="calculatorelements">
+                <button id="clear">C</button>
+                <button id="equals">=</button>
+            </div>
+        </div>
+    </div>
+<div>
+    <div id="game-goal">
+        <p id="target-number">Zielzahl: <span>0</span></p>
+        <p id="fixed-number">Schlüsselzahl: <span>0</span></p>
+        <p id="target-operator">Operator: <span>+</span></p>
+    </div>
+
+    <div id="game-result">
+        <p id="result-message"></p>
+    </div>
+</div>
+    <div id="pinboard">
+        <ul id="result-pinboard"></ul>
+
+    </div>
+
+</div>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+

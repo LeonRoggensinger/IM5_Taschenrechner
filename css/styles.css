@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+#calculator {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 20px;
+}
+
+#display {
+    width: 95%;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    display: block;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+#content {
+    display: flex;
+    align-items: center; /* Zentriert die Elemente vertikal */
+    justify-content: space-between; /* Verteilt die Elemente gleichmäßig horizontal */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #e7e7e7;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.active-button {
+    background-color: #e9c56b; /* Beispiel für eine Hintergrundfarbenänderung */
+    color: rgb(49, 48, 48);
+    transform: scale(0.95); /* Leichtes Verkleinern der Taste */
+}
+
+.correct-answer {
+    background-color: rgb(116, 182, 116);
+    animation: flashBackground 0.5s;
+}
+
+.wrong-answer {
+    background-color: rgb(205, 106, 106);
+    animation: flashBackground 0.5s;
+}
+
+@keyframes flashBackground {
+    from { opacity: 1; }
+    to { opacity: 0.9; }
+}
+
+
+button:hover {
+    background-color: #d4d4d4;
+}
+
+/* Game-Goal-Section und Game-Result-Section */
+#game-goal, #game-result {
+    display: flex;
+    align-items: center; /* Zentriert den Inhalt vertikal */
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+    flex-direction: column;
+    margin: 0 20px; /* Setzt einen Außenabstand */
+}
+
+#game-goal p, #game-result p {
+    margin: 10px 0;
+}
+
+/* Pinboard */
+#pinboard {
+    min-width: 300px;
+    min-height: 650px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#pinboard ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#pinboard ul li {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #e7e7e7;
+}
+
+/* Media Query für Bildschirmbreiten von 1090px und darunter */
+@media (max-width: 1090px) {
+    #content {
+        flex-direction: column; /* Ändert die Anordnung der Elemente in eine Spalte */
+        align-items: center; /* Zentriert die Elemente horizontal */
+    }
+
+    #game-goal, #game-result {
+        margin: 10px 0; 
+    }
+
+    #calculator, #game-goal, #game-result, #pinboard {
+        width: 100%; 
+        max-width: 300px; 
+        margin: 10px auto; 
+    }
+}
